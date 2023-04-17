@@ -9,6 +9,4 @@ RUN pip install openai-whisper setuptools-rust
 
 WORKDIR whisper_app
 
-COPY ./audios/ ./audios
-
 ENTRYPOINT ["zsh"]
